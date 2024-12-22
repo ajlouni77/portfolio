@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100000000;
+      background-color: black;
+      box-shadow: 2px 2px 2px black;
+    }
+  </style>
+  <body>
+    <!-- Start Header  -->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="header" id="header">
+        <div class="container">
+          <a href="#" class="logo">Ajlouni</a>
+          <ul class="main-nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Header  -->
+    <hr />
+    <!-- Start landing -->
+    <section>
+      <div class="landing" id="landing">
+        <div class="container">
+          <div class="text">
+            <h1>I am Mohammed Ajlouni</h1>
+            <p>“welcome to my personal website”</p>
+          </div>
+          <div class="icons">
+            <a href="https://www.facebook.com">
+              <i class="fa-brands fa-facebook" style="color: white"></i
+            ></a>
+            <a href="https://www.linkedin.com">
+              <i class="fa-brands fa-linkedin" style="color: white"></i
+            ></a>
+            <a href="https://www.GitHub.com">
+              <i class="fa-brands fa-github" style="color: white"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End landing -->
+    <hr />
+    <!-- Start About  -->
+    <section id="about-me" class="about-me-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+          "Hello! My name is Mohammed. I am a student at Orange Programming
+          Academy. I am working on developing my skills in programming and web
+          design, aiming to deliver innovative technical solutions. I love
+          continuous learning and strive to improve myself in programming and
+          user experience design. In my free time, I enjoy reading technical
+          books and learning new skills. My goal is to contribute to building
+          projects that add real value to the digital world."
+        </p>
+        <p class="about-text">
+          In my free time, I love exploring new ideas and working on projects
+          that challenge me to grow. Thank you for visiting my website!
+        </p>
+      </div>
+    </section>
+    <!-- End About  -->
+    <hr />
+    <!-- Start Skills  -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p>
+          "I possess a diverse set of technical and creative skills that I have
+          developed through my studies and practical experiences. <br />I
+          continuously strive to enhance my abilities to keep up with
+          advancements in my field and deliver efficient and innovative
+          solutions."
+        </p>
+
+        <div class="row">
+          <div class="item">
+            <div class="item-text">
+              <span>JS</span>
+              <span class="w-90">90%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar w-90"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-text">
+              <span>jQuery</span>
+              <span class="w-75">75%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar w-75"></div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-text">
+              <span>HTML5</span>
+              <span class="w-85">85%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar w-85"></div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-text">
+              <span>CSS3</span>
+              <span class="w-80">80%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar w-80"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-text">
+              <span>Wordpress</span>
+              <span class="w-60">60%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar w-60"></div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-text">
+              <span>Java</span>
+              <span class="w-68">68%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar w-68"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills  -->
+    <hr />
+    <!-- Start Contact  -->
+    <section class="contact-section" id="Contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p></p>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- End Contact  -->
+    <hr />
+    <!-- Start Footer  -->
+   <footer>
+  <div class="footer-container">
+    <p>&copy; 2024 Mohammed. All rights reserved.</p>
+    <p>Designed by Mohammed</p>
+  </div>
+</footer>
+    <!-- End Footer  -->
+  </body>
+</html>
